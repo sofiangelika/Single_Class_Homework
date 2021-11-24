@@ -1,9 +1,9 @@
 package com.company;
 
 public class Book {
-    private final String title;
-    private final String[] authors;
-    private final int publication_year;
+    String title;
+    String[] authors;
+    int publication_year;
 
     public Book (String title, String[] authors, int publication_year) {
         this.title = title;
@@ -24,15 +24,4 @@ public class Book {
         return buffer.toString();
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public String[] getAuthors() {
-        return authors;
-    }
-
-    public int getPublication_year() {
-        return publication_year;
-    }
 }
