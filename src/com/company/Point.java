@@ -9,7 +9,7 @@ public class Point {
     }
 
     public boolean isOnXAxis() {
-        return x == 0;
+        return y == 0;
     }
 
     public boolean isSameCoordinates(double new_x, double new_y) {
